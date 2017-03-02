@@ -37,6 +37,7 @@ background-color: #ccc;
 
 
 }
+
 .menu {
   margin-top: -4px;
   margin-bottom: -4.5px;
@@ -92,59 +93,40 @@ background-color: #ccc;
   padding-left: 0;
   margin-left: 0;
 }
+.back {
+  width: 100%;
+  margin-top: -6px;
+  background-color: #193441;
+
+}
+.back .cv{
+  font-size: 40px;
+  margin-left: 42px;
+
+  font-family: sans-serif;
+  color: white;
+}
 .wrapper {
-  width: 970px;
+  background-color: #cccccc;
+  width: 100%;
   margin: 0 auto 0 auto;
   text-align: center;
   background-color: #red;
-}
-.form{
-  background-color: #ccc;
-  margin-bottom: -15px;
-
-}
-
-.form form input {
-  width: 40%;
-  height: 30px;
-  margin-bottom: 4px;
-  padding:0px 0.5%;
-  border: 1px solid #ccc;
-  margin-left: 20px;
-  margin-top: 5px;
-  padding: 25px;
-}
-.form-radio {
-  margin-left: 20px;
-  width: 1% !important;
-  height: 10px;
-}
-.form form p {
-
-
-  font-size: 16px;
-  color: #282828;
+  font-size: 15px;
   font-family: sans-serif;
 }
-.form form textarea {
-  resize: none;
-  width: 40%;
-  height: 200px;
-  border: 1px solid #ccc;
-  font-size: 16px;
-  font-family: sans-serif;
-  margin-left: 20px;
+.grey {
+  background-color: #cccccc;
+  display: flex;
+  flex-direction: row;
 }
-.form button {
-  width: 80px;
-  height: 30px;
-  background: orange;
-  border: 2px solid #ccc;
-  color: #fff;
+.grey ul {
+  padding-left: 10px;
+}
+.heading {
+  font-size: 20px;
   font-family: sans-serif;
-  text-transform: uppercase;
-  margin: 3px;
-  margin-left: 20px;
+  margin: -10px;
 }
 
 footer {
