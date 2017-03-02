@@ -79,4 +79,37 @@ body .wrapper .img img {
   width: 150px;
   height: 200px;
   border: 2px solid black;
+  border-radius: 97px;
+}
+/*body .video {
+  width: 50%;
+  background-color: #a38d8d;
+}*/
+body .wrapper video {
+  width: 402px;
+  height: 226px;
+  margin-left: 0px;
+  margin-top: 0px;
+  border-radius: 18px;
+}
+body .wrapper .lol {
+  margin-top: 50px;
+}
+footer{
+  background:#193441;
+  font-size: 18px;
+  font-family: sans-serif;
+  color: white;
+  display: flex;
+}
+footer .class{
+padding-left: 37%;
+flex-direction: row;
+}
+footer .cont {
+padding-left: 20px;
+padding-top: 20px;
+}
+footer .social {
+padding-left: 20%;
 }
