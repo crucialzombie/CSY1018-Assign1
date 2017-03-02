@@ -1,0 +1,251 @@
+/*@@font-face {
+  font-family: sm;*/
+
+  header .lol img {
+
+  }
+header{
+  background: black;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0px;
+  height: 20px;
+}
+/*header .lol {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}*/
+header .lol img {
+  flex-direction: row;
+  height: 50px;
+  width: 69px;
+  border-radius: 90px;
+}
+header.lol img:hover {
+
+  border: 5px solid red;
+}
+
+  /*padding-top: 0;*/
+  padding-bottom: 0;
+  border-radius: 100px;
+
+}
+
+
+
+
+
+body{
+  /*background-image: url(jungle.jpg) ;
+  background-image: url(ka.jpg);*/
+width: 100%;
+background-color: #ccc;
+
+
+}
+.menu {
+  margin-top: -4px;
+  margin-bottom: -4.5px;
+
+
+}
+
+.menu ul {
+
+  margin: 0 0 0 0;
+
+  list-style: none;
+  background: #193441;
+  display: block;
+  display: flex;
+  justify-content: space-around;;
+  /*opacity: .6;*/
+
+}
+
+.menu ul li {
+
+  flex-direction: row;
+  color: white;
+  padding: 8px;
+  font-family:sans-serif;
+}
+
+.menu ul li ul {
+  display: none;
+  position: absolute;width: 10%;
+}
+
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu ul li:hover {
+  background-color:#6374c6;
+  border: 1px solid #ccc9c9;
+}
+.menu ul li:hover ul {
+  display: block;
+  margin: 0.6% 0 0 0;
+  background: #474040;
+  padding: : 0;
+  border: 1px solid black;
+    opacity: .8;
+}
+.menu ul li:hover ul li {
+  text-align: center;
+  padding-left: 0;
+  margin-left: 0;
+}
+.main {
+      margin-top: 11px
+  animation-name: anish;
+  animation-duration: 5s;
+  overflow: hidden;
+  background-image: url(E:\Web Development\Assignment 1\csy1018-assign1\images\ka.jpg);
+  border-bottom: 2px solid #ccc9c9;
+}
+.main ul {
+
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 0 0;
+  position: relative;
+  width: 400%;
+  margin: 0 0% 0 0%;
+  left: 0;
+  text-align: left;
+  /*margin-left: 10%;*/
+  font-size: 0;
+  animation: 12.5s anish infinite;
+}
+.main ul li {
+
+
+  width: 20%;
+  flex-direction: row;
+  padding: 0.1% ;
+  padding-left: 5%;
+  /*border: 1px solid black;
+*/
+  list-style: none;
+}
+
+}
+.content {
+  background:  # 665959;
+}
+.wrapper {
+  width: 100%;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  background-color: #red;
+}
+.news {
+  width: 100%;
+  padding: 80px 0px;
+  font-family: sans-serif;
+  margin-top: -6px;
+  height: 172px;
+
+}
+.wrapper {
+  background: #a38d8d;
+  margin-top: -80px;
+  border:2px solid #ccc9c9;
+  border-top: 4px solid grey;
+
+}
+
+  .news article {
+    width: 25%;
+    padding-left: 143px;
+
+
+  }
+
+  .news article ul {
+    display: flex;
+
+
+  }
+  .news article ul li img {
+    width: 150px;
+    height: 120px;
+    border: 2px solid #ccc9c9;
+    border-radius: 60px;
+
+  }
+  .news article ul li {
+    padding: 70px;
+    flex-direction: row;
+
+    list-style: none;
+  }
+  .news article ul li a {
+    text-decoration: none;
+  }
+  .news article ul li img:hover {
+    border: 3px solid red;
+    transition: all 0.455;
+  }
+
+  footer{
+    background:#193441;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+}
+footer .class{
+  padding-left: 37%;
+  flex-direction: row;
+}
+footer .cont {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+footer .social {
+  padding-left: 20%;
+}
+
+
+
+@keyframes anish {
+  0% {
+    left: 0;
+
+  }
+  20%  {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+
+
+}

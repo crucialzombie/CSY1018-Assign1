@@ -1,0 +1,153 @@
+header{
+  display: flex;
+  flex-direction: row;
+}
+header .menu {
+  justify-content: space-between;
+}
+header .lol img {
+  flex-direction: row;
+  height: 50px;
+  width: 69px;
+  border-radius: 90px;
+}
+header.lol img:hover {
+
+  border: 5px solid red;
+}
+body{
+  width: 100%;
+}
+.menu {
+  margin-top: 7px;
+  width: 100%;
+
+}
+
+.menu ul {
+
+  margin: 0 0 0 0;
+
+  list-style: none;
+  background: #193441;
+  display: block;
+  display: flex;
+  justify-content: space-around;;
+  /*opacity: .6;*/
+
+}
+
+.menu ul li {
+
+  flex-direction: row;
+  color: white;
+  padding: 8px;
+  font-family:sans-serif;
+}
+
+.menu ul li ul {
+  display: none;
+  position: absolute;width: 10%;
+}
+
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu ul li:hover {
+  background-color:#6374c6;
+  border: 1px solid #ccc9c9;
+}
+.menu ul li:hover ul {
+  display: block;
+  margin: 0.6% 0 0 0;
+  background: #474040;
+  padding: : 0;
+  border: 1px solid black;
+    opacity: .8;
+}
+.menu ul li:hover ul li {
+  text-align: center;
+  padding-left: 0;
+  margin-left: 0;
+}
+.wrapper {
+  width: 970px;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  background-color: #red;
+}
+.form{
+  background-color: #ccc;
+  margin-bottom: -15px;
+
+}
+
+.form form input {
+  width: 40%;
+  height: 30px;
+  margin-bottom: 4px;
+  padding:0px 0.5%;
+  border: 1px solid #ccc;
+  margin-left: 20px;
+  margin-top: 5px;
+  padding: 25px;
+}
+.form-radio {
+  margin-left: 20px;
+  width: 1% !important;
+  height: 10px;
+}
+.form form p {
+
+
+  font-size: 16px;
+  color: #282828;
+  font-family: sans-serif;
+}
+.form form textarea {
+  resize: none;
+  width: 40%;
+  height: 200px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  font-family: sans-serif;
+  margin-left: 20px;
+}
+.form button {
+  width: 80px;
+  height: 30px;
+  background: orange;
+  border: 2px solid #ccc;
+  color: #fff;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  margin: 3px;
+  margin-left: 20px;
+}
+
+footer {
+  background:#193441;
+  font-size: 18px;
+  font-family: sans-serif;
+  color: white;
+  display: flex;
+  margin-top: 16px;
+}
+.all {
+  font-size: 20px;
+  font-family: sans-serif;
+  padding-left: 35%;
+}
+footer .class{
+  padding-left: 37%;
+  flex-direction: row;
+}
+footer .cont {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+footer .social {
+  padding-left: 20%;
+}

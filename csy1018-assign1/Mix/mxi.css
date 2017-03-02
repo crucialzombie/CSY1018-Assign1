@@ -1,0 +1,193 @@
+header{
+  background: black;#A8A8A8;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0px;
+  height: 20px;
+}
+header .lol {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+header .lol img {
+  flex-direction: row;
+  height: 150px;
+
+
+  /*padding-top: 0;*/
+  padding-bottom: 0;
+  border-radius: 100px;
+
+}
+
+
+
+
+
+body{
+  /*background-image: url(jungle.jpg) ;
+  background-image: url(ka.jpg);*/
+width: 100%;
+
+
+}
+.menu {
+  margin-top: 10px;
+
+}
+
+.menu ul {
+
+  margin: 0 0 0 0;
+
+  list-style: none;
+  background: #3f3131;
+  display: block;
+  display: flex;
+  justify-content: space-around;;
+  /*opacity: .6;*/
+
+}
+
+.menu ul li {
+  font-style:italic;
+  flex-direction: row;
+  color: white;
+  padding: 8px;
+}
+
+.menu ul li ul {
+  display: none;
+  position: absolute;width: 10%;
+}
+
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu ul li:hover {
+  background-color:#474040;
+}
+.menu ul li:hover ul {
+  display: block;
+  margin: 0.6% 0 0 0;
+  background: #474040;
+  padding: : 0;
+  border: 1px solid black;
+    opacity: .8;
+}
+.menu ul li:hover ul li {
+  text-align: center;
+  padding-left: 0;
+  margin-left: 0;
+}
+.main {
+      margin-top: 11px
+  animation-name: anish;
+  animation-duration: 5s;
+  overflow: hidden;
+  background-image: url(back.jpg);
+
+}
+.main ul {
+
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 0 0;
+  position: relative;
+  width: 400%;
+  margin: 0 0% 0 0%;
+  left: 0;
+  text-align: left;
+  /*margin-left: 10%;*/
+  font-size: 0;
+  animation: 20s anish infinite;
+}
+.main ul li {
+
+
+  width: 20%;
+  flex-direction: row;
+  padding: 0.1% ;
+  padding-left: 5%;
+  /*border: 1px solid black;
+*/
+  list-style: none;
+}
+.content {
+  background:  # 665959;
+}
+.wrapper {
+  width: 970px;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  background-color: #red;
+}
+.news {
+  width: 100%;
+  padding: 80px 0px;
+
+}
+.wrapper {
+  background: #a38d8d;
+  margin-top: -93px;
+}
+
+  .news article {
+    width: 25%;
+
+  }
+
+  .news article ul {
+    display: flex;
+
+  }
+  .news article ul li img {
+    width: 150px;
+    height: 120px;
+    border: 2px solid #ccc9c9;
+    border-radius: 100px;
+  }
+  .news article ul li {
+    padding: 70px;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+  }
+@keyframes anish {
+  0% {
+    left: 0;
+
+  }
+  20%  {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+
+
+}
