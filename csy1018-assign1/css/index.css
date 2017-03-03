@@ -3,7 +3,7 @@
 
   header .lol img {
 
-  }
+  }/* defines the styling of the img file inside lol class within the header*/
 header{
   background: black;
   width: 100%;
@@ -12,13 +12,7 @@ header{
   margin-bottom: 0px;
   height: 20px;
 }
-/*header .lol {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-}*/
+
 header .lol img {
   flex-direction: row;
   height: 50px;
@@ -28,32 +22,28 @@ header .lol img {
 header.lol img:hover {
 
   border: 5px solid red;
-}
+}/*defines the styling of th img file when the mouse hovers over it*/
 
-  /*padding-top: 0;*/
-  padding-bottom: 0;
-  border-radius: 100px;
 
-}
+
 
 
 
 
 
 body{
-  /*background-image: url(jungle.jpg) ;
-  background-image: url(ka.jpg);*/
-width: 100%;
-background-color: #ccc;
 
+  width: 100%;
+  background-color: #ccc;
 
-}
+} /*defines that the body should have a 100% width with the specified background colour*/
+
 .menu {
   margin-top: -4px;
   margin-bottom: -4.5px;
 
 
-}
+} /*defines how the contents within the menu class shpould be styled and defines the position of the menu class*/
 
 .menu ul {
 
@@ -62,15 +52,13 @@ background-color: #ccc;
   list-style: none;
   background: #193441;
   display: block;
-  display: flex;
+  display: flex;flex-direction: row;
   justify-content: space-around;;
   /*opacity: .6;*/
 
 }
 
 .menu ul li {
-
-  flex-direction: row;
   color: white;
   padding: 8px;
   font-family:sans-serif;
@@ -89,7 +77,7 @@ background-color: #ccc;
 .menu ul li:hover {
   background-color:#6374c6;
   border: 1px solid #ccc9c9;
-}
+}/*Defines how the contents should be styled when mouse hovers over it*/
 .menu ul li:hover ul {
   display: block;
   margin: 0.6% 0 0 0;
@@ -97,11 +85,13 @@ background-color: #ccc;
   padding: : 0;
   border: 1px solid black;
     opacity: .8;
+    /*Defines how the contents should be styled when mouse hovers over it*/
 }
 .menu ul li:hover ul li {
   text-align: center;
   padding-left: 0;
   margin-left: 0;
+  /*Defines how the contents should be styled when mouse hovers over it*/
 }
 .main {
       margin-top: 11px
@@ -110,7 +100,7 @@ background-color: #ccc;
   overflow: hidden;
   background-image: url(E:\Web Development\Assignment 1\csy1018-assign1\images\ka.jpg);
   border-bottom: 2px solid #ccc9c9;
-}
+}/*defines on how the contents in the main class should be styled */
 .main ul {
 
   display: flex;
@@ -164,8 +154,8 @@ background-color: #ccc;
 }
 
   .news article {
-    width: 25%;
-    padding-left: 143px;
+    width: 70%;
+    padding:1% 13%;
 
 
   }
@@ -183,8 +173,7 @@ background-color: #ccc;
 
   }
   .news article ul li {
-    padding: 70px;
-    flex-direction: row;
+    padding: 8%;
 
     list-style: none;
   }
@@ -194,7 +183,7 @@ background-color: #ccc;
   .news article ul li img:hover {
     border: 3px solid red;
     transition: all 0.455;
-  }
+  }  /*Defines how the contents should be styled when mouse hovers over it*/
 
   footer{
     background:#193441;
@@ -202,7 +191,7 @@ background-color: #ccc;
     font-family: sans-serif;
     color: white;
     display: flex;
-}
+} /*defines how the contents inside the footer should be styled in*/
 footer .class{
   padding-left: 37%;
   flex-direction: row;
@@ -246,57 +235,19 @@ footer .social {
   100% {
     left: -400%;
   }
+}/*helps in the sliding of the images*/
+@media (max-width:600px){
 
-
-
-
-@media  (max-width: 900px)
- {
-
-  .menu {
-    margin-top: -4px;
-    margin-bottom: -4.5px;
-
+  .menu ul{flex-direction: column;}
+  .menu ul li{width: 100%; text-align: center;}
+  .news article ul {flex-direction: column; }
+  .news article ul li{width: 100%;}
+  footer {
+    margin-top: 60%;
 
   }
-  body .menu ul {
-
-    margin: 0 0 0 0;
-
-    list-style: none;
-    background: #193441;
-    display: block;
-    display: flex;
-    justify-content: space-around;;
-    /*opacity: .6;*/
-
+  .out .main ul li img {
+      width: 300px;
+      height: 200px;
   }
-
-  body .menu ul li {
-
-    flex-direction: column;
-    color: white;
-    padding: 8px;
-    font-family:sans-serif;
-  }
-
-body   .news article ul {
-    display: flex;
-
-
-  }
-  body .news article ul li img {
-    width: 150px;
-    height: 120px;
-    border: 2px solid #ccc9c9;
-    border-radius: 60px;
-
-  }
-  body .news article ul li {
-    padding: 70px;
-    flex-direction: column;
-
-    list-style: none;
-  }
-
-}
+}/*defines on how the website will look when the window has been shrunk in to the width of 600px*/

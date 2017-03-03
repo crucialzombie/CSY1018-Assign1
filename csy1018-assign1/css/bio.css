@@ -151,3 +151,26 @@ padding-top: 20px;
 footer .social {
 padding-left: 20%;
 }
+@media (max-width:600px){
+
+  .menu ul{flex-direction: column;}
+  .menu ul li{width: 100%; text-align: center;}
+
+  body {
+    width: 100%;
+  }
+  body .bio .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer {
+    margin-top: 5%;
+
+  }
+
+
+
+
+
+}

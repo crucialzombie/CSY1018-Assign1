@@ -153,3 +153,17 @@ footer .cont {
 footer .social {
   padding-left: 20%;
 }
+@media (max-width:600px){
+
+  .menu ul{flex-direction: column;}
+  .menu ul li{width: 100%; text-align: center;}
+  
+  footer {
+    margin-top: 60%;
+
+  }
+
+
+
+
+}
