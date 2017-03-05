@@ -1,5 +1,10 @@
-/*@@font-face {
-  font-family: sm;*/
+/*Student name: Anish Pithakote*/
+/*tudent ID number:16441457*/
+
+html {
+  background-image: url("../images/lol.jpg");
+}
+
 
   header .lol img {
 
@@ -11,14 +16,16 @@ header{
   margin-right: 0;
   margin-bottom: 0px;
   height: 20px;
-}
+}/*defines the contents inside the header*/
+
+
 
 header .lol img {
   flex-direction: row;
   height: 50px;
   width: 69px;
   border-radius: 90px;
-}
+}/*defines the images within the lol class insid the header*/
 header.lol img:hover {
 
   border: 5px solid red;
@@ -32,10 +39,8 @@ header.lol img:hover {
 
 
 body{
-
   width: 100%;
   background-color: #ccc;
-
 } /*defines that the body should have a 100% width with the specified background colour*/
 
 .menu {
@@ -52,8 +57,9 @@ body{
   list-style: none;
   background: #193441;
   display: block;
-  display: flex;flex-direction: row;
-  justify-content: space-around;;
+  display: flex;/*the contents inside the ul within menu class is displayed in flex*/
+  flex-direction: row;/*the flexed contents are displayed in row*/
+  justify-content: space-around;/*the flexed contents are justified*/
   /*opacity: .6;*/
 
 }
@@ -61,7 +67,7 @@ body{
 .menu ul li {
   color: white;
   padding: 8px;
-  font-family:sans-serif;
+font-family: 'Poppins', sans-serif; /*the google api fonts are used*/
 }
 
 .menu ul li ul {
@@ -71,12 +77,13 @@ body{
 
 .menu ul li a {
   color: white;
-  text-decoration: none;
+  text-decoration: none;/*the underline of the hyperlink is removed*/
 }
 
 .menu ul li:hover {
   background-color:#6374c6;
   border: 1px solid #ccc9c9;
+  box-shadow: 10px 10px 10px black;
 }/*Defines how the contents should be styled when mouse hovers over it*/
 .menu ul li:hover ul {
   display: block;
@@ -126,12 +133,17 @@ body{
 */
   list-style: none;
 }
+body .out {
+  background-image: url("../images/lol.jpg");
+
+}
 
 }
 .content {
   background:  # 665959;
 }
 .wrapper {
+  height: 509px;
   width: 100%;
   margin: 0 auto 0 auto;
   text-align: center;
@@ -140,15 +152,16 @@ body{
 .news {
   width: 100%;
   padding: 80px 0px;
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin-top: -6px;
-  height: 172px;
+  height: 354px;
 
 }
 .wrapper {
-  background: #a38d8d;
+  background: #cccccc;
+
   margin-top: -80px;
-  border:2px solid #ccc9c9;
+  border:2px solid  #827777;
   border-top: 4px solid grey;
 
 }
@@ -158,17 +171,21 @@ body{
     padding:1% 13%;
 
 
+
   }
 
   .news article ul {
     display: flex;
-
+    text-align: center;
+    flex-direction: row;
+    padding-top: 10%;
+    justify-content: space-between;
 
   }
   .news article ul li img {
     width: 150px;
     height: 120px;
-    border: 2px solid #ccc9c9;
+    border: 2px solid  #a38d8d;;
     border-radius: 60px;
 
   }
@@ -183,12 +200,13 @@ body{
   .news article ul li img:hover {
     border: 3px solid red;
     transition: all 0.455;
+    box-shadow: 10px 10px 15px black;
   }  /*Defines how the contents should be styled when mouse hovers over it*/
 
   footer{
     background:#193441;
     font-size: 18px;
-    font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
     color: white;
     display: flex;
 } /*defines how the contents inside the footer should be styled in*/
@@ -245,6 +263,9 @@ footer .social {
   footer {
     margin-top: 60%;
 
+  }
+  .menu ul li:hover {
+    box-shadow: 03px 03px 10px black;
   }
   .out .main ul li img {
       width: 300px;

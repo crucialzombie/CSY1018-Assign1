@@ -6,41 +6,29 @@ header{
   margin-bottom: 0px;
   height: 20px;
 }
-/*header .lol {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-}*/
+/*shows how the contents within the header should be styled */
 header .lol img {
   flex-direction: row;
   height: 50px;
   width: 69px;
   border-radius: 90px;
-}
+}/*shows how the image file within the lol class inside the header tag should be styled*/
 header.lol img:hover {
 
   border: 5px solid red;
-}
+} /*shows how the image file should be styled when the mouse hovers over it*/
 
-  /*padding-top: 0;*/
-  padding-bottom: 0;
-  border-radius: 100px;
 
-}
 body{
-  /*background-image: url(jungle.jpg) ;
-  background-image: url(ka.jpg);*/
+
 width: 100%;
-background-color: #ccc;
-background-color: #ccc;
-}
+background-color: #cccccc;
+}/*the contents inside the body is styled*/
 body .lol {
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;/*the google api font is used*/
   font-size: 20px;
 
-}
+} /*the contents inside the lol class within body is styled*/
 .menu {
   margin-top: -4px;
   margin-bottom: -4.5px;
@@ -55,18 +43,21 @@ body .lol {
   list-style: none;
   background: #193441;
   display: block;
-  display: flex;
-  justify-content: space-around;;
-  /*opacity: .6;*/
+  display: flex;/*shows that the contents within ul tag should be
+  displayed in  a flex*/
+  justify-content: space-around;/*shows how the flexed contents should be justified*/
 
 }
+ /*shows how the contents within ul should be styled which is within
+menu class*/
 
 .menu ul li {
 
-  flex-direction: row;
+  flex-direction: row;/*shows how the flex items should be placed, in this case
+  it's row*/
   color: white;
   padding: 8px;
-  font-family:sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .menu ul li ul {
@@ -76,12 +67,13 @@ body .lol {
 
 .menu ul li a {
   color: white;
-  text-decoration: none;
+  text-decoration: none;/*the underline of the hyperlink is removed*/
 }
 
 .menu ul li:hover {
   background-color:#6374c6;
   border: 1px solid #ccc9c9;
+  box-shadow: 10px 10px 10px black;
 }
 .menu ul li:hover ul {
   display: block;
@@ -109,8 +101,8 @@ body .lol {
   text-align: center;
   background-color: #red;
   /*border: 2px solid red;*/
-    display: flex;
-  flex-direction: row;
+    display: flex;/*the contents within the wrapper is displayed in flex*/
+  flex-direction: row;/*the flexed contents are placed in a row*/
 
 }
 body .wrapper .img img {
@@ -119,10 +111,7 @@ body .wrapper .img img {
   border: 2px solid black;
   border-radius: 97px;
 }
-/*body .video {
-  width: 50%;
-  background-color: #a38d8d;
-}*/
+
 body .wrapper video {
   width: 402px;
   height: 226px;
@@ -139,7 +128,7 @@ footer{
   font-family: sans-serif;
   color: white;
   display: flex;
-}
+}/*the contents inside the footer is styled*/
 footer .class{
 padding-left: 37%;
 flex-direction: row;
@@ -168,9 +157,4 @@ padding-left: 20%;
     margin-top: 5%;
 
   }
-
-
-
-
-
-}
+}/*shows how the contents should be styled when the window size in shrunk into 600px size*/
