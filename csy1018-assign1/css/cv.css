@@ -34,13 +34,14 @@ body{
   background-image: url(ka.jpg);*/
 width: 100%;
 background-color: #ccc;
-
+font-family: 'Poppins', sans-serif;
 
 }
 
 .menu {
   margin-top: -4px;
   margin-bottom: -4.5px;
+  font-family: 'Poppins', sans-serif;
 
 
 }
@@ -63,7 +64,7 @@ background-color: #ccc;
   flex-direction: row;
   color: white;
   padding: 8px;
-  font-family:sans-serif;
+font-family: 'Poppins', sans-serif;
 }
 
 .menu ul li ul {
@@ -80,6 +81,7 @@ background-color: #ccc;
   background-color:#6374c6;
   border: 1px solid #ccc9c9;
   box-shadow: 10px 10px 10px black;
+  font-family: 'Poppins', sans-serif;
 }
 .menu ul li:hover ul {
   display: block;
@@ -104,8 +106,13 @@ background-color: #ccc;
   font-size: 40px;
   margin-left: 42px;
 
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: white;
+  text-align: center;
+}
+.grey {
+  font-family: 'Poppins', sans-serif;
+
 }
 .wrapper {
   background-color: #cccccc;
@@ -114,29 +121,34 @@ background-color: #ccc;
   text-align: center;
   background-color: #red;
   font-size: 15px;
-  font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .grey {
   background-color: #cccccc;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;;
+  padding-left: 36px;
+  padding-top: 25px;
 }
 .grey ul {
-  padding-left: 10px;
+
+
 }
 .heading {
   font-size: 20px;
   font-family: sans-serif;
   margin: -10px;
 }
-
+.Professional{
+  font-size: 20px;
+}
 footer {
   background:#193441;
   font-size: 18px;
   font-family: sans-serif;
   color: white;
   display: flex;
-  margin-top: 16px;
+
 }
 .all {
   font-size: 20px;
@@ -160,8 +172,18 @@ footer .social {
   .menu ul li{width: 100%; text-align: center;}
 
   footer {
-    margin-top: 60%;
+    margin-top: 0%;;
 
+  }
+  footer .class{
+    padding-left: 15%;
+  }
+  .cont {
+    padding-left: 0%;
+    text-align: center;
+  }
+  footer .social {
+    padding-left: 25%;
   }
 
 

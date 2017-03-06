@@ -157,4 +157,14 @@ padding-left: 20%;
     margin-top: 5%;
 
   }
+  footer .class{
+    padding-left: 15%;
+  }
+  .cont {
+    padding-left: 0%;
+    text-align: center;
+  }
+  footer .social {
+    padding-left: 25%;
+  }
 }/*shows how the contents should be styled when the window size in shrunk into 600px size*/

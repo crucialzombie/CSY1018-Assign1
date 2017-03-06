@@ -264,11 +264,27 @@ footer .social {
     margin-top: 60%;
 
   }
+  .haha {
+    padding-top: 0px;
+  }
+  .wrapper{
+    height: 774px
+  }
   .menu ul li:hover {
     box-shadow: 03px 03px 10px black;
   }
   .out .main ul li img {
       width: 300px;
       height: 200px;
+  }
+  footer .class{
+    padding-left: 15%;
+  }
+  .cont {
+    padding-left: 0%;
+    text-align: center;
+  }
+  footer .social {
+    padding-left: 25%;
   }
 }/*defines on how the website will look when the window has been shrunk in to the width of 600px*/

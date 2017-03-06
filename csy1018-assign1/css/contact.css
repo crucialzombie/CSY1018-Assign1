@@ -202,7 +202,14 @@ footer .social {
     margin-top: 5%;
 
   }
-  footer .cont  {
+  footer .class{
+    padding-left: 15%;
+  }
+  .cont {
+    padding-left: 0%;
     text-align: center;
+  }
+  footer .social {
+    padding-left: 25%;
   }
 }/*shows how the contents should be styled when the window has shrunk to the size of 6oopx*/
