@@ -1,0 +1,10 @@
+melissaburns.me
+Krista Gray
+Sarah Adler
+Callie Schweitzer
+Ximena N. Beltran Quan Kiu
+The web development assignment for the 1st Term 1st Year students was published by the University of Northampton. The assignment had instructed the students to create a website which was to be acted as an autobiography of that student. The website has had to have four compulsory html pages i.e the index.html , the bio.html , the CV.html and the form.html pages with their respective css and images in their respective folders.   
+
+Any webpage should be user-friendly and not too complicated to use and should not leave the users scratching their heads when they open the web page. In simple words, a web page should be a simple and user friendly. The webpages that I’ve created are the perfect examples of simple webpages. 
+Some of the things that have been included in all of my web pages are the Navigation Bar, The footer part and the logo. 
+We will now discuss these common things in detail:

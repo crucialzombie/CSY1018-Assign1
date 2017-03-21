@@ -184,7 +184,8 @@ body .out {
     height: 120px;
     border: 2px solid  #a38d8d;;
     border-radius: 60px;
-
+    box-shadow: 1px 3px 5px black;
+    opacity: 0.75;
   }
   .news article ul li {
     padding: 8%;
@@ -195,10 +196,15 @@ body .out {
     text-decoration: none;
   }
   .news article ul li img:hover {
-    border: 3px solid red;
+    opacity: 1;
     transition: all 0.455;
-    box-shadow: 10px 10px 15px black;
   }  /*Defines how the contents should be styled when mouse hovers over it*/
+
+  .news article ul li img:active {
+    box-shadow: 0px 0px 0px black;
+    transform: translate(1px, 3px);
+    transition: 0.2s;
+  }
 
   footer{
     background:#193441;
