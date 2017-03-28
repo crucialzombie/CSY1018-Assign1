@@ -198,6 +198,10 @@ body .out {
   .news article ul li img:hover {
     opacity: 1;
     transition: all 0.455;
+    -ms-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    transform: rotate(360deg) ;
+      transition-duration: 2s;
   }  /*Defines how the contents should be styled when mouse hovers over it*/
 
   .news article ul li img:active {
