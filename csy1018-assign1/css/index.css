@@ -86,7 +86,7 @@ font-family: 'Poppins', sans-serif; /*the google api fonts are used*/
   display: block;
   margin: 0.6% 0 0 0;
   background: #474040;
-  padding: : 0;
+  padding:0;
   border: 1px solid black;
     opacity: .8;
     /*Defines how the contents should be styled when mouse hovers over it*/
@@ -97,54 +97,22 @@ font-family: 'Poppins', sans-serif; /*the google api fonts are used*/
   margin-left: 0;
   /*Defines how the contents should be styled when mouse hovers over it*/
 }
-.main {
-      margin-top: 11px
-  animation-name: anish;
-  animation-duration: 5s;
-  overflow: hidden;
-  background-image: url(E:\Web Development\Assignment 1\csy1018-assign1\images\ka.jpg);
-  border-bottom: 2px solid #ccc9c9;
-}/*defines on how the contents in the main class should be styled */
-.main ul {
 
-  display: flex;
-  justify-content: space-between;
-  padding: 0 0 0 0;
-  position: relative;
-  width: 400%;
-  margin: 0 0% 0 0%;
-  left: 0;
-  text-align: left;
-  /*margin-left: 10%;*/
-  font-size: 0;
-  animation: 12.5s anish infinite;
-}
-.main ul li {
-
-
-  width: 20%;
-  flex-direction: row;
-  padding: 0.1% ;
-  padding-left: 5%;
-  /*border: 1px solid black;
-*/
-  list-style: none;
-}
 body .out {
   background-image: url("../images/lol.jpg");
 
 }
 
-}
+
 .content {
-  background:  # 665959;
+  background:  #665959;
 }
 .wrapper {
   height: 509px;
   width: 100%;
   margin: 0 auto 0 auto;
   text-align: center;
-  background-color: #red;
+
 }
 .news {
   width: 100%;
@@ -197,11 +165,10 @@ body .out {
   }
   .news article ul li img:hover {
     opacity: 1;
-    transition: all 0.455;
-    -ms-transform: rotate(7deg);
-    -webkit-transform: rotate(7deg);
-    transform: rotate(360deg) ;
-      transition-duration: 2s;
+
+
+    transform: rotate(360deg) ;/*shows by how much degree the content must rotate*/
+      transition-duration: 2s;/*helps to declare the time required for rotation of the content*/
   }  /*Defines how the contents should be styled when mouse hovers over it*/
 
   .news article ul li img:active {
@@ -213,7 +180,7 @@ body .out {
   footer{
     background:#193441;
     font-size: 18px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;/*shows which font should be used in the google font*/
     color: white;
     display: flex;
 } /*defines how the contents inside the footer should be styled in*/
@@ -228,40 +195,7 @@ footer .cont {
 footer .social {
   padding-left: 20%;
 }
-
-
-
-@keyframes anish {
-  0% {
-    left: 0;
-
-  }
-  20%  {
-    left: 0;
-  }
-  25% {
-    left: -100%;
-  }
-  45% {
-    left: -100%;
-  }
-  50% {
-    left: -200%;
-  }
-  70% {
-    left: -200%;
-  }
-  75% {
-    left: -300%;
-  }
-  95% {
-    left: -300%;
-  }
-  100% {
-    left: -400%;
-  }
-}/*helps in the sliding of the images*/
-@media (max-width:600px){
+@media (max-width:900px){
 
   .menu ul{flex-direction: column;}
   .menu ul li{width: 100%; text-align: center;}
@@ -284,9 +218,16 @@ footer .social {
       width: 300px;
       height: 200px;
   }
-  footer .class{
-    padding-left: 15%;
-  }
+  .news article ul li {
+    width: 100%;
+    padding-bottom: 1px;
+}
+footer {
+margin-top: 30%;
+}
+footer .class {
+  padding-left: 20%;
+}
   .cont {
     padding-left: 0%;
     text-align: center;

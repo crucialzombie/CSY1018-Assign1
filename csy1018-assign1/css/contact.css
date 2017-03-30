@@ -22,11 +22,8 @@ header.lol img:hover {
   border: 5px solid red;
 } /*shows how the image within lol class should be styled when mouse hoves over it*/
 
-  /*padding-top: 0;*/
-  padding-bottom: 0;
-  border-radius: 100px;
 
-}
+
 body{
 
 width: 100%;
@@ -48,7 +45,6 @@ background-color: #ccc;
   display: block;
   display: flex;
   justify-content: space-around;;
-  /*opacity: .6;*/
 
 } /*shows how the ul within menu class should be styled*/
 
@@ -79,10 +75,10 @@ background-color: #ccc;
   display: block;
   margin: 0.6% 0 0 0;
   background: #474040;
-  padding: : 0;
+  padding:  0;
   border: 1px solid black;
     opacity: .8;
-    b
+
 }
 .menu ul li:hover ul li {
   text-align: center;
@@ -94,7 +90,7 @@ background-color: #ccc;
   width: 970px;
   margin: 0 auto 0 auto;
   text-align: center;
-  background-color: #red;
+
 }
 .form{
   background-color: #ccc;

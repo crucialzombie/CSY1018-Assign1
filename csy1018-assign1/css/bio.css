@@ -82,7 +82,7 @@ menu class*/
   display: block;
   margin: 0.6% 0 0 0;
   background: #474040;
-  padding: : 0;
+  padding:  0;
   border: 1px solid black;
     opacity: .8;
 }
@@ -91,7 +91,6 @@ menu class*/
   padding-left: 0;
   margin-left: 0;
 }
-
 
 .bio {
   margin-top: 10px;
@@ -102,9 +101,7 @@ menu class*/
   width: 95%;
   margin: 0 auto 0 auto;
   text-align: center;
-  background-color: #red;
-  /*border: 2px solid red;*/
-    display: flex;/*the contents within the wrapper is displayed in flex*/
+  display: flex;/*the contents within the wrapper is displayed in flex*/
   flex-direction: row;/*the flexed contents are placed in a row*/
 
 }
@@ -113,6 +110,7 @@ body .wrapper .img img {
   height: 200px;
   border: 2px solid black;
   border-radius: 97px;
+
 }
 
 body .wrapper video {
